@@ -1,0 +1,175 @@
+/* verible ko store karne ke liye */
+
+:root{
+    --box-shadow:0 1px 3px rgba(0,0,0,0.12),
+    0 1px 2px rgba(0,0,0,0.24)
+}
+
+/* for box */
+*{
+    box-sizing: border-box;
+    color: black;
+    
+}
+/* for body style */
+body{
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* background-image: url(2B.jpeg); */
+    min-height: 100vh;
+    margin: 0;
+    /* background-image: url(no.webp); */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+ /* for content */ 
+
+.container{
+    margin: 30px auto;
+    width: 350px;
+}
+
+/* for heding- */
+h1{
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+h3{
+    border-bottom: 1px solid #bbb;
+    padding: bottom 10px; 
+    margin: 40px 0 10px;
+}
+
+h4{
+    margin: 0;
+    text-transform: uppercase;
+
+}
+
+.inc-exp-container{
+    background-color: #fff;
+  
+    box-shadow: var(--box-shadow);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.inc-exp-container>div{
+    flex:1;
+    text-align: center;
+
+}
+
+.inc-exp-container>div:first-of-type{
+    border-right: 1px solid #dedede;
+}
+
+.money{
+    font-size:2 ;
+    letter-spacing: 1px;
+    margin: 5px 0;
+}
+
+.money-plus{
+    color: #2ecc71;
+}
+
+.money-minus{
+    color: #c0392b;
+}
+
+label{
+    display: inline-block;
+    margin: 10px 0;
+}
+/* For input */
+input[type="text"],input[type="number"]{
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+/* For Button  */
+.btn{
+    cursor: pointer;
+    background-color: #9c88ff;
+    box-shadow: var(--box-shadow);
+    color: #fff;
+    border:0 ;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0 30px;
+    padding: 10px;
+    width: 100%; /* button ke box ki length*/
+}
+
+/* delete button  */
+.btn:focus,.delete-btn:focus{
+    outline: 0;
+
+}
+
+.list{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+
+}
+
+/* list ke li elements */
+.list li{
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    color: #333;
+    display: flex ;
+    justify-content:space-between;
+    position: relative;
+    padding: 10px;
+    margin: 10px 0;
+
+}
+/* Agar puls me hua to kesa hona chhiye color*/
+.list li.plus{
+    border-right: 5px solid #2ecc71;
+
+}
+
+/* Agar .money-minus me hua to kesa color red hona chhiye  */
+
+.list li.minus{
+    border-right: 5px solid #c0392b;
+    
+}
+
+
+/* delete ko coloer */
+
+.delete-btn{
+    cursor: pointer;
+    background-color: #e74c3c;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    line-height:20px ;
+    padding: 2px 5px ;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-100%,-50%);
+    opacity:0 ;
+    transition:opacity 0.3s ease;   
+}
+
+/* delete ko bahar lane ke liye  */
+.list li:hover.delete-btn{
+    opacity: 1;    
+} 

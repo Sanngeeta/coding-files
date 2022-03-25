@@ -1,0 +1,44 @@
+app.js
+Setup the directopry where files are located 
+app.set('views','./views') hamra folder jo views ke naam se hi banana hota hai
+Setup the tempalate engine to use
+app.set('view engine','ejs') jo tempalte ka use karte hai usko kuch es tarike se dena hi hota hai
+
+
+CREAYTE TEMPALTE FILES
+views folder ke ander es tarike se banata hota hai file 
+views/
+    indexe.ejs
+    about.ejs
+    conatct.ejs       es tarike se file bana sakte hai ham
+
+
+
+createing routes for template files 
+app.js
+app.get('/',(req,res)=>{
+    res.render('index')
+})
+
+ager route ki file agl h to
+router.get('/',(req,res)=>{
+    res.render('about')
+})
+
+if the view engijne property is not set,you must specify the extension of the view file.
+app.set('view engine','ejs')  ager yese nhi lagya to 
+
+router.get('/',(req,res)=>{
+    res.render('index.ejs') //to yese lagana hoga 
+})
+
+
+When you make a request to the home page,the index.ejs file will be rendered as HTML
+
+
+res.render()-It renders a view and send the rendered HTML string to the client 
+Syntax:-res/render('view'[,locals][,callback])
+view-The view argument is a string is the file path of the view file to render.This can be an absolute path,or a path relative to the viewa setting.
+if the path does not cantian a file extension,then the view engine setting determines the file extension.
+
+local-it's an abject whose properties local variable for the view. 

@@ -1,0 +1,17 @@
+input{
+    height: 2rem;
+    width: 20%;
+}
+
+body{
+    text-align: center;
+}
+
+button{
+    margin-top: 3rem;
+    margin: 1rem;
+    padding: 0.5 1rem;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 2rem;
+}

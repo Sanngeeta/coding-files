@@ -1,0 +1,12 @@
+{
+    "id": "2398",
+    "parent_exercise_id": null,
+    "name": "Interview Questions",
+    "slug": "interviewQuestions__intro",
+    "sequence_num": 0,
+    "review_type": "peer",
+    "solution": null,
+    "content": "[{\"type\":\"markdown\",\"value\":\"Iss course mai hum interview questions pe focus karege jo humare alunmi se puche gaye hai. \"}]",
+    "submission_type": "url",
+    "github_link": "https://github.com/navgurukul/newton/tree/master/interviewQuestions/intro.md"
+}

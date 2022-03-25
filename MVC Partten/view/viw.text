@@ -1,0 +1,10 @@
+It represents how data should be presented to the application user.User can read 
+or write the data from view
+
+.Basically it is reponsoible for showing end user content,
+we can say is user iterface.
+It may conists of HTML,CSS,JS
+
+user interface
+HTML/CSS
+get data from controller

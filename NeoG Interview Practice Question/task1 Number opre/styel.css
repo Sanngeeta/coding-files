@@ -1,0 +1,29 @@
+.center{
+    text-align: center;
+    margin-top: 1rem;
+    
+    
+}
+
+
+input{
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    box-sizing: 2rem;
+    border-radius: 0.5;
+    width: 20%;
+    padding: 0.6rem 1rem;
+    border: solid;
+
+}
+
+button{
+    margin-top: 2rem;
+    width: 1rem;
+    width: 8%;
+    padding: 0.7rem 2rem;
+    border-radius: 0.5;
+}
+
+

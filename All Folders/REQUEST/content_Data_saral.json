@@ -1,0 +1,12 @@
+{
+     "id": "2362",
+     "parent_exercise_id": "2347",
+     "name": " Question 12",
+     "slug": "dictionary__Questions/question12",
+     "sequence_num": 7012,
+     "review_type": "peer",
+     "solution": null,
+     "content": "[{\"type\":\"markdown\",\"value\":\"Ek program likhiye jo:- Ek dictionary me 1 se 15 tak saare numbers ki keys banaye aur unke square unn keys ki values ho. `Output :-` \"}]",
+     "submission_type": "url",
+     "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/Questions/question12.md"
+}

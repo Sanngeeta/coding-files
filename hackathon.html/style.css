@@ -1,0 +1,30 @@
+body 
+{   
+    margin:0;
+    padding:0;
+    book-sizing:border-box
+
+}
+.Container
+{
+    height:100vh;
+    width:100%;
+    background: #e9ebee;
+
+}
+{
+    .header 
+    width:100%;
+    hegiht:100px;
+    backgraound:#3b5998;
+
+}
+
+
+
+.header img
+{
+    margin-left: 13%;
+    margin-tap: 25px;
+
+}

@@ -1,0 +1,33 @@
+/*css documents*/
+body{
+    font-size: 200px;
+    background-image: url(bard.webp);counter
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative; 
+}
+.head
+{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    float: left;
+}
+.head-warpper
+{
+    width: 1170px;
+    margin: 0px auto;
+}
+.aboutme
+{
+    padding: 0px;
+    margin: 0px;
+
+} 
+
+.aboutme p{
+    font-size: 30px;
+    line-height:50px ;
+    margin-bottom: 15px;
+    color: thistle;
+}

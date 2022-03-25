@@ -1,0 +1,7 @@
+The model is responsible for getting data from a database,packaging it in
+data objects that can be userstood by other componebts and delivering those obajects,
+most of which will happen in response to input from the controller
+
+process data
+insert/update DB 
+communicate with controller

@@ -1,0 +1,24 @@
+:root{
+    --primary-coloer:red;
+    --secondary-color:green;
+}
+
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    margin: 1rem;
+} 
+
+.link-Primary{
+    background-color: var(--primary-coloer);
+    border-radius: 00.5rem;
+    color: white;
+}
+
+.link-Secondry{
+    border: 1px solid;
+    border-radius: 00.5rem;
+    border-color: var(--primary-coloer);
+    color: var(--primary-coloer);
+}

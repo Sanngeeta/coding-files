@@ -1,0 +1,10 @@
+The user can send request by interacting with view,the controller handles
+these request and sends model then get appropriate response
+from the Model,sends response to View.
+It may also have required logics.
+It works as a mediator between View and Model.
+
+server side logic 
+process GET/POST
+get data from user 
+pass data to model 

@@ -1,0 +1,18 @@
+Que.1"How many continents are there?",   
+A ."Four"
+B ."Seven"
+C ."Eight"
+D ."Nine"
+B
+Que.2"What is the capital of India?"
+A."Chandigarh"
+B."Bhopal"
+C."Chennai"
+D."Delhi"
+D
+Que.3"NG mei kaun se course padhaya jaata hai?"  
+A."Software Engineering"
+B. "Counseling" 
+C."Tourism"
+D."Agriculture"
+A

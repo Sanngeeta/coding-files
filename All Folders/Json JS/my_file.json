@@ -1,0 +1,51 @@
+{
+     "user": {
+          "Username": "sangeeta",
+          "Password": "sangi@123"
+     },
+     "Profile": {
+          "Fullname": "sangeeta",
+          "DOB": "6 jan",
+          "Mobile": "1234567890"
+     }
+}{
+      "user": {
+            "Username": "arohi",
+            "Password": "786"
+      },
+      "Profile": {
+            "Fullname": "arohi rawat",
+            "DOB": "7 feb",
+            "Mobile": "9876541234"
+      }
+}{
+      "user": {
+            "Username": "prity",
+            "Password": "Prity@123"
+      },
+      "Profile": {
+            "Fullname": "Prity Purbey",
+            "DOB": "18 August",
+            "Mobile": "199"
+      }
+}{
+      "user": {
+            "Username": "sangeeta",
+            "Password": "sangeeta@123"
+      },
+      "Profile": {
+            "Fullname": "sageeta paswan",
+            "DOB": "25/6/1999",
+            "Mobile": "9818488495"
+      }
+}{
+      "user": {
+            "Username": "arohi",
+            "Password": "arohi@123"
+      },
+      "Profile": {
+            "Fullname": "arohi rawat",
+            "DOB": "25 jun",
+            "Mobile": "1234567890"
+      }
+}
